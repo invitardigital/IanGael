@@ -37,7 +37,7 @@ var countdownInterval = setInterval(function() {
     var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
-    document.getElementById("days").innerHTML = days;
+    document.getElementById("days").innerHTML = days+1;
     document.getElementById("hours").innerHTML = hours;
     document.getElementById("minutes").innerHTML = minutes;
     document.getElementById("seconds").innerHTML = seconds;
